@@ -8,11 +8,8 @@ export default [
     languageOptions: {
       globals: {
         ...globals.browser,
-        jest: 'readonly',
-        test: 'readonly',
-        expect: 'readonly',
-        module: 'readonly', // Add this line
-        global: 'readonly', // Add this line
+        ...globals.jest,
+        global: 'readonly',
       },
       ecmaVersion: 'latest',
       sourceType: 'module',
