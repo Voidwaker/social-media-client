@@ -9,7 +9,7 @@ export default [
       globals: {
         ...globals.browser,
         ...globals.jest,
-        global: 'readonly',
+        ...globals.cypress, // Dette legger til Cypress globale variabler
       },
       ecmaVersion: 'latest',
       sourceType: 'module',
