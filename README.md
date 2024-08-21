@@ -1,14 +1,16 @@
 # Social Media Client
-## brief
+
+## Brief
+
 ### Goal
+
 Enhance the quality of an existing application by implementing development workflows and a testing strategy, focusing on unit testing, end-to-end (E2E) testing, and setting up necessary dependencies.
 
-Brief
 In this assignment, you will improve an existing application by:
 
-Setting up ESLint, Prettier, and commit hooks.
-Configuring GitHub Actions for build and deploy.
-Implementing Jest for unit tests and Cypress for E2E tests.
+- Setting up ESLint, Prettier, and commit hooks.
+- Configuring GitHub Actions for build and deploy.
+- Implementing Jest for unit tests and Cypress for E2E tests.
 
 [![Deploy static content to Pages](https://github.com/Voidwaker/social-media-client/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/Voidwaker/social-media-client/actions/workflows/pages.yml)
 [![Automated E2E Testing](https://github.com/Voidwaker/social-media-client/actions/workflows/e2e-tests.yml/badge.svg)](https://github.com/Voidwaker/social-media-client/actions/workflows/e2e-tests.yml)
@@ -18,17 +20,14 @@ Implementing Jest for unit tests and Cypress for E2E tests.
 [![ESLint](https://img.shields.io/badge/linted_with-eslint-4b32c3.svg)](https://eslint.org/)
 [![Cypress](https://img.shields.io/badge/tested_with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
+## Getting Started
 
+### Installing
 
-# Getting Started
-
-## Installing
-
-### Clone the repo:
+**Clone the repo:**
 
 ```bash
 git clone https://github.com/Voidwaker/social-media-client.git
-```
 
 ## Development Dependencies
 
@@ -192,6 +191,7 @@ In the project directory, you can run the following commands:
 - **`npm run cypress:run`**: Runs the Cypress end-to-end tests in headless mode, typically used in CI pipelines (if configured separately in your scripts).
 
 - **`npm run prepare`**: Installs Husky Git hooks. This is automatically run by Git hooks to enforce code quality on commits.
+- 
   #contributing
   I'm open to feedback, but I don't want any contributions on this project (due to it being an assignment). Thank you for understanding!
 
