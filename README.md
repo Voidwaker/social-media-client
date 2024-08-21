@@ -26,9 +26,9 @@ In this assignment, you will improve an existing application by:
 
 **Clone the repo:**
 
-```bash
+```
 git clone https://github.com/Voidwaker/social-media-client.git
-
+```
 ## Development Dependencies
 
 * **@babel/core:**
